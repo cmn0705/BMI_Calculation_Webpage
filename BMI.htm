@@ -1,0 +1,22 @@
+<link href="styles.css" rel="stylesheet">
+<script src="scripts.js"></script>
+
+
+
+<label>Your weight (pounds):</label><br>
+<input type='number' id="w" onchange="cal()"><br><br>
+<label>Your height (inches):</label><br>
+<input type='number' id='h' onchange="cal()"><br><br>
+<button onclick="cal()">Your BMI</button>
+<p id="output"></p>
+
+
+<table>
+<tr><td></td><th>BMI Value</th></tr>
+<tr><td>Underweight</td><td><18.5</td></tr>
+<tr><td>Normal</td><td>>= 18.5 <= 24.9</td></tr>
+<tr><td>Overweight</td><td>> 24.9 <= 29.9</td></tr>
+<tr><td>Obese</td><td>> 29.9</td></tr>
+</table><br>
+<p>For more information:</p>
+<a href="http://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm">Department of Health and Human Services website</a>
