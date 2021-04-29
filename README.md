@@ -2,4 +2,4 @@
 
 **BMI Calculator web application**
 
-[Paris WebPage](https://cmn0705.github.io/BMI_Calcuation_Webpage/BMI.htm)
+[BMI WebPage](https://cmn0705.github.io/BMI_Calcuation_Webpage/BMI.htm)
